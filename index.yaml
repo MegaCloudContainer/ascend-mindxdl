@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ascend-mindxdl:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-15T09:58:37.585569047Z"
+    description: A Helm chart for Kubernetes
+    digest: 88d0f504a1a6da33553418158818383c5c15628e33de165c9212f63ac3aa5d0a
+    name: ascend-mindxdl
+    type: application
+    urls:
+    - https://github.com/MegaCloudContainer/ascend-mindxdl/releases/download/ascend-mindxdl-0.1.0/ascend-mindxdl-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-03-15T09:58:37.585607428Z"
