@@ -72,7 +72,7 @@ npuExporter:
     enabled: true
   resources:
     limits:
-      cpu: 500m
+      cpu: 600m
       memory: 500Mi
     requests:
       cpu: 500m
