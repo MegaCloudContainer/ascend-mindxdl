@@ -70,6 +70,7 @@ npuExporter:
     workerselector: dls-worker-node
   serviceMonitor:
     enabled: true
+    labels: {}
   resources:
     limits:
       cpu: 600m

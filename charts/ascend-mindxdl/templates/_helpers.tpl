@@ -42,6 +42,14 @@ app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{- end }}
 
+{{- define "ascend-mindxdl.npu-exporter.serviceMonitor.labels" -}}
+{{- if .Values.npuExporter.serviceMonitor.labels }}
+{{- range $key, $value := .Values.npuExporter.serviceMonitor.labels -}}
+{{ $key }}: {{ $value }}
+{{- end }}
+{{- end }}
+{{- end -}}
+
 {{/*
 Selector labels
 */}}

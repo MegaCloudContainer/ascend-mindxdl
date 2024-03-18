@@ -4,7 +4,7 @@ kind: ServiceMonitor
 metadata:
   labels:
     app: npu-exporter
-    operator.insight.io/managed-by: insight
+    {{- include "ascend-mindxdl.npu-exporter.serviceMonitor.labels" . | nindent 4}}
   name: npu-exporter
 spec:
   endpoints:
