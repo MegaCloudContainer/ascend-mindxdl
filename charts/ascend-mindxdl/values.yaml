@@ -81,4 +81,6 @@ npuExporter:
 
 isVirtualMachine: false
 
+criType: containerd
+
 
